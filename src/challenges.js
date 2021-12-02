@@ -6,25 +6,24 @@ function compareTrue(n1, n2) {
     return false;
   }
 }
-console.log(compareTrue(10 , 10))
-
 // Desafio 2
 function calcArea(base, altura) {
-  return (base * altura) / 2 
+  let area = (base * altura) / 2
+  return area
 }
-calcArea(10,50);
-calcArea(5,2);
-calcArea(51,1);
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(a) {
+  return a.split(" ");
 }
+console.log(splitSentence('go trybe'));
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(n) {
+  return console.log(n[n.length - 1], n[0]);
 }
+let i = ['astronauta', 'faxineiro', 'porteiro']
+concatName(i)
 
 // Desafio 5
 function footballPoints() {
