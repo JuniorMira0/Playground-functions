@@ -33,8 +33,17 @@ console.log(footballPoints(2, 1));
 
 // Desafio 6
 function highestCount(array) {
-  
+  let HighNumber = Math.max.apply(Math, array);
+  let cont = 0;
+
+  for (let i = 0; i < array.length; i+=1){
+    if (HighNumber === array[i]){
+      cont +=1
+    }
+  }
+  return cont;
 }
+console.log(highestCount([0,0,0]));
 
 // Desafio 7
 function catAndMouse() {
