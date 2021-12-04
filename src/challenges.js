@@ -15,6 +15,7 @@ function splitSentence(a) {
   let result = a.split(' ');
   return result;
 }
+splitSentence();
 
 // Desafio 4
 function concatName() {
@@ -28,7 +29,7 @@ function footballPoints(wins, ties) {
   let points = (wins * 3) + ties;
   return points;
 }
-console.log(footballPoints(2,1));
+console.log(footballPoints(2, 1));
 
 // Desafio 6
 function highestCount() {
