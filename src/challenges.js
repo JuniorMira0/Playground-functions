@@ -2,13 +2,11 @@
 function compareTrue(n1, n2) {
   if (n1 === true && n2 === true) {
     return true;
-  } else {
-    return false;
   }
 }
 // Desafio 2
 function calcArea(base, altura) {
-  let area = (base * altura) / 2
+  let area = (base * altura) / 2;
   return area;
 }
 
@@ -19,7 +17,7 @@ function splitSentence(a) {
 }
 
 // Desafio 4
-function concatName(n) {
+function concatName() {
   let n = [];
   return console.log(n[n.length - 1], n[0]);
 }
