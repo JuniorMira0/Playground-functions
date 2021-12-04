@@ -9,26 +9,28 @@ function compareTrue(n1, n2) {
 // Desafio 2
 function calcArea(base, altura) {
   let area = (base * altura) / 2
-  return area
+  return area;
 }
 
 // Desafio 3
 function splitSentence(a) {
-  return a.split(" ");
+  let result = a.split(' ');
+  return result;
 }
-console.log(splitSentence('go trybe'));
 
 // Desafio 4
 function concatName(n) {
+  let n = [];
   return console.log(n[n.length - 1], n[0]);
 }
-let i = ['astronauta', 'faxineiro', 'porteiro']
-concatName(i)
+concatName();
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let points = (wins * 3) + ties;
+  return points;
 }
+console.log(footballPoints(2,1));
 
 // Desafio 6
 function highestCount() {
