@@ -19,9 +19,8 @@ function splitSentence(a) {
 splitSentence();
 
 // Desafio 4
-function concatName() {
-  let n = [];
-  return console.log(n[n.length - 1], n[0]);
+function concatName(n) {
+  return n[n.length - 1] + ", " + n[0];
 }
 concatName();
 
@@ -33,8 +32,8 @@ function footballPoints(wins, ties) {
 console.log(footballPoints(2, 1));
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(array) {
+  
 }
 
 // Desafio 7
