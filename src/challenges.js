@@ -8,7 +8,7 @@ function compareTrue(n1, n2) {
 }
 // Desafio 2
 function calcArea(base, altura) {
-  let area = (base * altura) / 2;
+  let area = (base * altura) / 2
   return area;
 }
 
@@ -51,9 +51,18 @@ function highestCount(numbers) {
 console.log(highestCount([0,0,0]));
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+  let position1 = Math.abs(mouse - cat1)
+  let position2 = Math.abs(mouse - cat2)
+  if(position1 === position2){
+    return "os gatos trombam e o rato foge"
+  } else if (position1 < position2){
+    return 'cat1'
+  } else {
+    return 'cat2'
+  }
 }
+console.log(catAndMouse(1, 0, 2));
 
 // Desafio 8
 function fizzBuzz() {
