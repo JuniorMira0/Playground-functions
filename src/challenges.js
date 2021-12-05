@@ -4,6 +4,7 @@ function compareTrue(n1, n2) {
     return true;
   } else {
     return false;
+ }
 }
 // Desafio 2
 function calcArea(base, altura) {
