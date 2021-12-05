@@ -1,6 +1,10 @@
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(array, name) {
+  if(array.length === 0){
+    return 'Vazio!'
+  }
+  const orderList = array.sort().map((elementArray) => ({ tech: elementArray, name }));
+  return orderList;
 }
 
 // Desafio 11
