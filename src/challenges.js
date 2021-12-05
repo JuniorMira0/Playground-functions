@@ -20,7 +20,7 @@ function splitSentence(a) {
 // Desafio 4
 function concatName(n) {
   return n[n.length - 1] + ", " + n[0];
-
+}
 
 // Desafio 5
 function footballPoints(wins, ties) {
