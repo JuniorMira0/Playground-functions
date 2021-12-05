@@ -16,13 +16,11 @@ function splitSentence(a) {
   let result = a.split(' ');
   return result;
 }
-splitSentence();
 
 // Desafio 4
 function concatName(n) {
   return n[n.length - 1] + ", " + n[0];
-}
-concatName();
+
 
 // Desafio 5
 function footballPoints(wins, ties) {
