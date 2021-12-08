@@ -6,6 +6,9 @@ function techList(array, name) {
   const orderList = array.sort().map((elementArray) => ({ tech: elementArray, name }));
   return orderList;
 }
+// Na primeira condições verificamos se o array está vazio para retornar uma string 'Vazio!'
+// 
+
 
 // Desafio 11
 function generatePhoneNumber() {
